@@ -1,0 +1,21 @@
+Name,Title,Rating,Content,matched_keywords,sentiment
+Flipkart Customer,Review,0.0,"3.9
+22,317 ratings and 909 reviews
+5★
+4★
+3★
+2★
+1★
+11,845
+3,573
+2,440
+1,458
+3,001
+Read reviews that mention:
+Overall
+Look
+Colour
+Comfort
+Material Quality
+Light Weight
+True to Specs","['color', 'colors', 'weight', 'quality']",Negative

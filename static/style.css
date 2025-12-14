@@ -1,0 +1,254 @@
+/* Glassmorphism Design System */
+:root {
+    --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    --surface-glass: rgba(255, 255, 255, 0.05);
+    --border-glass: rgba(255, 255, 255, 0.1);
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --accent-primary: #7c3aed;
+    /* Violet */
+    --accent-secondary: #06b6d4;
+    /* Cyan */
+    --success: #10b981;
+    --danger: #ef4444;
+    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+body {
+    background: var(--bg-gradient);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 2rem;
+    margin-top: 2rem;
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Glass Components */
+.glass-card {
+    background: var(--surface-glass);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: var(--shadow-glass);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* Forms */
+.input-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-glass);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: var(--accent-secondary);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    color: white;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.5);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid var(--border-glass);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Results Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rating-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.rating-high {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--success);
+}
+
+.rating-low {
+    background: rgba(239, 68, 68, 0.2);
+    color: var(--danger);
+}
+
+/* Analysis Page */
+.analysis-section h3 {
+    color: var(--accent-secondary);
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--border-glass);
+    padding-bottom: 0.5rem;
+}
+
+.analysis-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.analysis-section li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.analysis-section li::before {
+    content: "•";
+    color: var(--accent-primary);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}
+
+.actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Glass Select Dropdown */
+select.glass-select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0.2) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23cbd5e1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat right 1rem center !important;
+    background-size: 1em;
+    border: 1px solid var(--border-glass);
+    padding: 1rem 1.5rem;
+    padding-right: 2.5rem;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 110px;
+}
+
+select.glass-select:focus {
+    outline: none;
+    border-color: var(--accent-secondary);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+select.glass-select option {
+    background: #1e1b4b;
+    color: white;
+}
+
+/* Hide spin buttons */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

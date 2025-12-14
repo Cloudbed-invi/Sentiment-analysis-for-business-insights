@@ -1,0 +1,4 @@
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/results/reviews.csv
+http://127.0.0.1:5000/plot_results/reviews.csv
+http://127.0.0.1:5000/analysis/reviews.csv

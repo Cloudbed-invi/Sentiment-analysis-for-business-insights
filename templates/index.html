@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Review Analyst</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-card" style="text-align: center; max-width: 600px; margin: 4rem auto;">
+            <h1>AI Product Analyst</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                Enter a Flipkart or Amazon product URL to generate specific insights using AI.
+            </p>
+
+            <form id="scrapeForm" class="scrape-form">
+                <div class="input-group" style="align-items: center;">
+                    <input type="text" id="urlInput" placeholder="Paste product URL here..." required style="flex: 2;">
+                    <input type="number" id="pageInput" min="1" value="1" placeholder="Pages"
+                        style="width: 100px; flex: 0 0 auto; background: rgba(0,0,0,0.2); border: 1px solid var(--border-glass); padding: 1rem; border-radius: 12px; color: white; text-align: center;">
+                    <button type="submit" class="btn btn-primary">Analyze Product</button>
+                </div>
+            </form>
+
+            <div id="progressSection" class="hidden" style="margin-top: 2rem;">
+                <div class="glass-card" style="padding: 1rem;">
+                    <p id="statusMessage">Initializing...</p>
+                    <div
+                        style="background: rgba(255,255,255,0.1); height: 4px; border-radius: 2px; margin-top: 0.5rem; overflow: hidden;">
+                        <div id="progressBar"
+                            style="width: 0%; height: 100%; background: var(--accent-secondary); transition: width 0.3s;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('scrapeForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const url = document.getElementById('urlInput').value;
+            const page_count = document.getElementById('pageInput').value;
+            const btn = e.target.querySelector('button');
+            const progress = document.getElementById('progressSection');
+
+            btn.disabled = true;
+            btn.textContent = 'Processing...';
+            progress.classList.remove('hidden');
+
+            const startRes = await fetch('/scrape', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ url, page_count })
+            });
+            const { task_id } = await startRes.json();
+
+            const poll = setInterval(async () => {
+                const res = await fetch(`/progress/${task_id}`);
+                const data = await res.json();
+
+                document.getElementById('statusMessage').textContent = data.message;
+                document.getElementById('progressBar').style.width = data.progress + '%';
+
+                if (data.status === 'complete') {
+                    clearInterval(poll);
+                    window.location.href = data.result_url;
+                } else if (data.status === 'error') {
+                    clearInterval(poll);
+                    alert(data.message);
+                    btn.disabled = false;
+                    btn.textContent = 'Analyze Product';
+                }
+            }, 1000);
+        };
+    </script>
+</body>
+
+</html>

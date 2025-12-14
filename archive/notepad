@@ -1,0 +1,153 @@
+```index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon & Flipkart Review Scraper</h1>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <form action="/scrape" method="POST">
+            <input type="text" name="url" placeholder="Enter product URL" required>
+            <button type="submit">Scrape Reviews</button>
+        </form>
+    </div>
+</body>
+</html>
+```
+results.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraped Reviews</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Scraped Reviews</h1>
+        
+        <h2>Positive Reviews</h2>
+        {% if reviews.positive %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Rating</th>
+                    <th>Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for review in reviews.positive %}
+                <tr>
+                    <td>{{ review.Name }}</td>
+                    <td>{{ review.Title }}</td>
+                    <td>{{ review.Rating }}</td>
+                    <td>{{ review.Content }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No positive reviews found.</p>
+        {% endif %}
+
+        <h2>Negative Reviews</h2>
+        {% if reviews.negative %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Rating</th>
+                    <th>Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for review in reviews.negative %}
+                <tr>
+                    <td>{{ review.Name }}</td>
+                    <td>{{ review.Title }}</td>
+                    <td>{{ review.Rating }}</td>
+                    <td>{{ review.Content }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No negative reviews found.</p>
+        {% endif %}
+        
+        <form action="{{ url_for('plot', filename=filename) }}" method="get">
+            <button type="submit">View Keyword Frequency Plot</button>
+        </form>
+
+        <a class="back-home" href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+</body>
+</html>
+```
+```plot_results.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Frequency Plots</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Keyword Frequency Plots</h1>
+        <img src="{{ plot_url }}" alt="Keyword Frequency Plot" style="width: 100%; max-width: 800px;"/>
+        <a class="back-home" href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+
+    <form action="{{ url_for('analysis', filename='/top_keywords.txt') }}" method="get">
+        <button type="submit">Analysis</button>
+    </form>
+</body>
+</html>
+```
+analysis.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feedback Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Feedback Analysis</h1>
+        <div>
+            {% for word in analysis.split() %}
+                <span class="word">{{ word }}</span>
+            {% endfor %}
+        </div>
+        <a class="back-home" href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+</body>
+</html>
+```
+
+<form action="{{ url_for('plot', filename=filename) }}" method="get">
+    <button type="submit">View Keyword Frequency Plot</button>
+</form>

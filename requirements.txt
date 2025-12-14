@@ -1,0 +1,13 @@
+pandas
+python-dotenv
+Flask
+beautifulsoup4
+selenium
+tqdm
+fuzzywuzzy
+python-Levenshtein
+matplotlib
+nltk
+torch
+transformers
+google-generativeai

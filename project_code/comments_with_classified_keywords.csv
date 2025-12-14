@@ -1,0 +1,195 @@
+Unnamed: 0,Name,Title,Rating,Content,matched_keywords,sentiment
+0,Yash Gupta,Worthless,1.0,"Hinge has problems, the lid is not closing completeyREAD MORE",['hinge'],Negative
+1,SURAJ OJHA,Horrible,1.0,BADREAD MORE,[],Negative
+2,Flipkart Customer,Waste of money!,1.0,Charger not working. After unboxingREAD MORE,['hinge'],Negative
+3,Anand Mulay,Hated it!,1.0,Facing hinge issues on 2nd day of purchasedREAD MORE,"['hinge', 'issues']",Negative
+4,SANJEEV KUMAR  SINHA,Did not meet expectations,1.0,Totally defective item received. It's working very slowly.READ MORE,[],Negative
+5,rahul Chauhan,Terrible product,1.0,Received damage product from flipkart and i do regular follow up with flipkart team but not responded very very bad service and product not working as on date but not responded by flipkart team and all amount wastage 😭😭READ MORE,"['response', 'wi-fi', 'sound']",Negative
+6,Vibhanshu Chaudhary,Hated it!,1.0,Very  bad productREAD MORE,[],Negative
+7,Rahul  Ranjan Prasad,Not recommended at all,1.0,"Never buy MacBooks in sale. I bought in sale and seller gave me old laptop, refurnished. I repeat , never ever buy MacBook in sale online. System is slow all the time whenever open some application. It crashREAD MORE",['noise'],Negative
+8,Bhawani Singh  Rathore,Useless product,1.0,1 month later automatic screen damageREAD MORE,"['screen', 'water']",Negative
+9,Anuj Bhatnagar,Hated it!,1.0,Nice product Worst exchange experienceREAD MORE,['hinge'],Negative
+10,Flipkart Customer,Worthless!!,1.0,Battery issue within a year. Don't buy.READ MORE,"['battery', 'issues']",Negative
+11,Soumen Bhowmik,Invoice not provided by Flipkart,1.0,Flipkart hasn't provided me invoice for the MacBook. Hard copy of invoice wasn't delivered. Also download invoice option isn't working in Flipkart website. Several times I talked to customer service from Flipkart. But they were useless.Overall experience on this product is: useless service by M/s Flipkart.READ MORE,"['network', 'video']",Negative
+12,Mayank Tripathi,Very poor,1.0,The product is not starting up.. This seller is not good and Flipkart does NOT take any ownership of such fails. And apple has said talk to point of sale (Flipkart) . I am now stuck with a MacBook which doesn't work.READ MORE,['static'],Negative
+13,Aman Ishwar,Terrible product,1.0,Product is good but the Flipkart delivery system is poorREAD MORE,[],Negative
+14,Harsh  Sharma,Useless product,1.0,This is not as good as I thinkREAD MORE,[],Negative
+15,Milan Padhiyar,Horrible,1.0,laptop is great but the way Flipkart exchange is making fool to everyone is worst.READ MORE,['hinge'],Negative
+16,Anish Heta,Waste of money!,1.0,Laptop not charging after 1 week. Charging cable fault.READ MORE,['charging'],Negative
+17,Brati sundar Das,Slightly disappointed,2.0,Hinge problem is there . It keeps on popping up after closing the lid . Not expected from such a price range .READ MORE,['hinge'],Negative
+18,Flipkart Customer,Expected a better product,2.0,I have 10 to 15 days of experience with Mac Book Air M2. My system warms up in 10-15 minutes. Battery life is only 7-8 hours. The quality of the camera is also bad.Android iOS developers did not buy a MacBook Air M2. This is based on my personal experience.READ MORE,"['quality', 'camera', 'battery', 'water']",Negative
+19,Mohit Verma,Slightly disappointed,2.0,Battery drain too fast even in stand by mode. Just put this in sleep then it will consume more than 30% battery within 2hrs. Heat too much even in below normal usage.READ MORE,"['drain', 'battery', 'battery-drain', 'heat']",Negative
+20,Amit Gautam,Moderate,2.0,Seriously overrated.READ MORE,['water'],Negative
+21,YUVRAJ JWALA,Fair,3.0,Just a hype.READ MORE,[],Negative
+22,Shailendra  Singh,Just okay,3.0,Its good for normal task but it's expensive. MacOs as a software is mixed bag. Only best thing is the built quality.READ MORE,"['build', 'quality', 'software', 'hinge', 'ui']",Negative
+23,Joy,Decent product,3.0,"This macbook has serious thermal issues, under normal load its heating up in the back. Do some research on the thermal issue before buying this. Don't just buy this laptop for the brand name , you can get a much better laptop at this price point. Buy this laptop only if you do casual browsing and content consumption. Coders stay away from this.READ MORE","['issues', 'heat']",Negative
+24,Chakku Kumar,Decent product,3.0,Many limitations in itREAD MORE,[],Negative
+25,Gautam Surani,Good,3.0,The hinge is too tight and it will open 10mm automatically after closeREAD MORE,"['hinge', 'loose']",Negative
+26,Lagdhirbhai Prajapati,Just okay,3.0,Good for home and office useREAD MORE,[],Negative
+27,Shaija Naishadhan,Fair,3.0,Battery and performance issue after Mac OS 14 update.Remaining awesome.READ MORE,"['issues', 'performance', 'battery', 'water']",Negative
+28,Susanta Kumar  Behera,Product is ok,3.0,The product is ok.READ MORE,[],Negative
+29,grateathul143 .,Fair,3.0,Speaker had very light sound and it had crackling soundREAD MORE,"['sound', 'speaker']",Negative
+30,Praful Singh,Does the job,3.0,"Display hinge got tight just after 5 days, not able to open with one hand, other than this product is greatREAD MORE","['hinge', 'display']",Negative
+31,Adarsh Ps,Good,3.0,Best purchase everREAD MORE,[],Negative
+32,Kishan singh rajput,Fair,3.0,Good productREAD MORE,[],Negative
+33,Twarit Deogaonkar,Fair,3.0,The Beast 🔥READ MORE,[],Negative
+34,BIDYADHARA BAGARTI,Decent product,3.0,I love it 😻READ MORE,[],Negative
+35,Ankita Yadav,Decent product,3.0,GoodREAD MORE,[],Negative
+36,Amar  Singh,Just okay,3.0,Very Awesome n Very Premium Looks ..Thank for Flipkart delivery very fast delivery...I suggest you to go for Apple.🎉🎉🎉🎉READ MORE,[],Negative
+37,swarnava chakraborty,Good,3.0,"The speaker is not good even if I connect with an external speaker, it is not able to produce sound with high volume. otherwise, I like this product.READ MORE","['volume', 'sound', 'speaker']",Negative
+38,Agam  Dayal,Fair,3.0,Spees is excellent battery backup excellent but price is little expensiveREAD MORE,"['battery', 'water']",Negative
+39,prasad  shetty,Delightful,4.0,"Awesome build quality and very good display, battery and camera. Still new to macOSREAD MORE","['battery', 'build', 'quality', 'camera', 'display', 'water', 'ui']",Positive
+40,Shuvam Mondal,Delightful,4.0,Good for business workREAD MORE,[],Positive
+41,Rohit Singh,Wonderful,4.0,GoodREAD MORE,[],Positive
+42,Abhishek Rao,Very Good,4.0,Nice Experience with macREAD MORE,[],Positive
+43,Devanshu Raj,Wonderful,4.0,Expected better. Has hinge problemREAD MORE,['hinge'],Positive
+44,Saurabh Rai,Nice product,4.0,Well I am a software developer. The laptop heats up really quickly. And once it does the device starts to lagREAD MORE,"['software', 'lag', 'ui', 'heat']",Positive
+45,Shreyas Padhiar,Good quality product,4.0,I ordered  Macbook Air - 8GB RAM and 512GB Storage. I am happy with this product. It's expensive but it is valuable product and worth to have it. I am also happy with Flipkart services. I received it within 3 days. I recommended to buy this kind of expensive product from Flipkart as well.READ MORE,"['app', 'storage', 'ram']",Positive
+46,Pradyoto  Das,Delightful,4.0,"It's a excellent choice, specially if you are buying it for work, free lancing and to learn new skills, It is great in both performance and battery in this price. Absolutely buy it. Giving it a 4 star as the piece I got has a little tight hinge and it won't open single handedly, which doesn't give a good Impression, and I can't even return it now and have to go apple service centre, But be real everybody doesn't have time to waste a whole day for this problem.READ MORE","['hinge', 'performance', 'battery']",Positive
+47,Prajyot  Sapre,Very Good,4.0,Very good battery 🔋 and performanceREAD MORE,"['performance', 'battery', 'water']",Positive
+48,MD IRSHAD HAFIZ,Very Good,4.0,Premium And good performanceREAD MORE,['performance'],Positive
+49,Anupam  Singha Rajput,Value-for-money,4.0,I have used it for almost a year and my experience was great.READ MORE,['atmos'],Positive
+50,Amol Nimbalkar,Worth the money,4.0,"Got it in BBD, it's an amazing machine working so good, got a good deal... thanks Flipkart 😎READ MORE","['hinge', 'network']",Positive
+51,Flipkart Customer,Good choice,4.0,There is no need to review this product as when it comes to apple it gives you the best and premium feel. Though the MacBook is good the only disadvantage is the storage issue as it doesn't provide greater storage capacity.READ MORE,"['app', 'storage', 'issues']",Positive
+52,Flipkart Customer,Value-for-money,4.0,Performance wise no comparison it's the best.. giving 4 instead of 5 as Flipkart couldn't change colour when I requested otherwise everything just awesomeREAD MORE,"['hinge', 'performance', 'color']",Positive
+53,lovkesh deshmukh,Good choice,4.0,"Overall product is good,but its trackpad makes metallic sound on force click,if have one, you can try your self,and its so annoying to hear that sound.For people who want to buy midnight color be aware of finger print all over laptop it might be annoying too, so you should consider other color  like gray.ThanksREAD MORE","['fingerprint', 'sound', 'color', 'fan']",Positive
+54,Vijay Wilson,Very Good,4.0,Osm productREAD MORE,[],Positive
+55,Prince  Patel,Wonderful,4.0,Best in the rangeREAD MORE,[],Positive
+56,Neha  Singh,Good choice,4.0,Go for itREAD MORE,[],Positive
+57,Ieshan Tapan Sharma,Good choice,4.0,I have used MacBook Air 2019 and I can definately say design and display wise it is betterperformance wise I am in the very initial days of using it but I have used m2 chip in pro version which gives ultimate development experiance and performancethe concern related to performance is the ram which is 8 gb but I can be expanded to 16 value is a bit high as m3 chips are already out if you have the budget and want to go for graphic usage go for that if for software development choose thisREAD MORE,"['performance', 'software', 'display', 'ram']",Positive
+58,SURESH KANNAN,Pretty good,4.0,"After 1 year purchase of this laptop writing this review, It working good and very smooth. Better life has 1 week every day spend 3 hours.READ MORE",[],Positive
+59,thaz v,Wonderful,4.0,It a good laptop but you have to think whether the 256gb storage is sufficient or not. Because you may think twice to download any application or app which may have more data storage. In Android the application is around 70mb it may be around 250mb in os. So you have to think about the storageREAD MORE,"['app', 'data', 'storage']",Positive
+60,Rahis Kumar Yadav,Very Good,4.0,Early review but so far I find all as per expectations. You need to buy  Multiport hub if you want to connect laptop with old type devices that connect on other than C type port.READ MORE,['port'],Positive
+61,Mahipal Singh,Wonderful,4.0,"Premium look, nice design every thing is very well  nice packing and delivery very fast.. thank you FlipkartREAD MORE",['hinge'],Positive
+62,Arthi Sona,Value-for-money,4.0,As I'm a apple lover I usually buy apple products but I was left with apple Mac but in this czry deal I got Mac thanks filkart for giving such good opportunity for apple loves. Thanks once again.READ MORE,['app'],Positive
+63,DeprecatedParam,Worth the money,4.0,The product is good. I like it. Sound I hate.READ MORE,"['sound', 'water']",Positive
+64,Sachin kumar,slimmest and powerful,4.0,"slimmest and powerful , but 8gb ram is not enough for coders who do multitasking at same time.READ MORE","['frame', 'ram']",Positive
+65,Flipkart Customer,Good quality product,4.0,Everything good but delivery is worstREAD MORE,['hinge'],Positive
+66,Anand Lavi,Very Good,4.0,Fab machine!READ MORE,['hinge'],Positive
+67,Flipkart Customer,Fair,4.0,Nice productREAD MORE,[],Positive
+68,Bhoomika  K,Nice product,4.0,AwesomeREAD MORE,[],Positive
+69,Bhoomika  K,Really Nice,4.0,ExcellentREAD MORE,[],Positive
+70,Sachin NC,Nice product,4.0,Good. Hopefully it stays Good. 🤞READ MORE,[],Positive
+71,Rampal Jaiswal,Pretty good,4.0,Fully satisfied with the productREAD MORE,[],Positive
+72,Flipkart Customer,Wonderful,4.0,Good and awesome 🙌READ MORE,[],Positive
+73,Praveen Raikwar,Very Good,4.0,Lagging after running premiere proREAD MORE,['lag'],Positive
+74,Rohit Chaudhari,Value-for-money,4.0,Very good laptop. It will be more better if it come with Oled display/Liquid retina display and aleast one USB port.Rest of than this. Everything is best in class. I am very happy with tha Mac.But some time you feel there should be more storage.READ MORE,"['display', 'hinge', 'usb', 'ui', 'storage']",Positive
+75,Adarsh Chaubey,Nice product,4.0,Awesome product 😀READ MORE,[],Positive
+76,RAMAKANT KUMAR,Very Good,4.0,This product is good. For web designREAD MORE,[],Positive
+77,Mahesh Prattipati,Wonderful,4.0,Very good laptopREAD MORE,[],Positive
+78,Javed  Ali,Really Nice,4.0,Awesome but minor damage in hinge if we have carry it by one hand minor crack sound in hingeREAD MORE,"['hinge', 'sound']",Positive
+79,Flipkart Customer,Pretty good,4.0,Good purchaseREAD MORE,[],Positive
+80,Aditya Verma,Delightful,4.0,Nice product by apple. Good performance and good design.READ MORE,"['performance', 'app']",Positive
+81,samuel murmu,Really Nice,4.0,smooth and bestREAD MORE,[],Positive
+82,Tanzeel Shamsi,Good quality product,4.0,Best product at sale price..READ MORE,[],Positive
+83,sai Ram,Value-for-money,4.0,Loving it.READ MORE,[],Positive
+84,Gedion Gedion,Value-for-money,4.0,It's good product  buy after 10 days review Performance good while gaming little bit of heat this laptop is not for gaming ( clearly )Better gaming to choose from graphic card models No heating issues Silicon processerAccuracy is  better than Intel i5 12th gen - 2.0 processorM2 processer 3.5Realty  All Android apps are not instal EtcREAD MORE,"['loose', 'performance', 'issues', 'heat', 'accuracy']",Positive
+85,Anish  Soni,Really Nice,4.0,Good productREAD MORE,[],Positive
+86,Shakti singh Shekhawat,Worth the money,4.0,Nice beautifulREAD MORE,[],Positive
+87,Ganesh Prudhvi,Really Nice,4.0,Macbook AirPerfect companion for casual computing with excellent portability and design languageREAD MORE,"['hinge', 'durability', 'port']",Positive
+88,Flipkart Customer,Good choice,4.0,"Product is very good Nd, I am satisfied this productREAD MORE",[],Positive
+89,Sayan Ghosh,Worth the money,4.0,Great 👍😃READ MORE,[],Positive
+90,Naveed Shaikh,Very Good,4.0,Values for many MacBook air m2 who wants to buy this machine to their task or to anything. I got the best price of it in this BBDREAD MORE,['hinge'],Positive
+91,Flipkart Customer,Good quality product,4.0,Nice awesome nothing negative complementREAD MORE,['hinge'],Positive
+92,Narender Kumar,Value-for-money,4.0,Good performanceREAD MORE,['performance'],Positive
+93,RAKESH YADAV,Good choice,4.0,"The machine is awesome, the design is very attractive and loaded with M2 chip work like butter on heated tawa.But there are some drawbacks like price is very high, u can't play heavy games, u can't edit in 4k more than 3 layout in editing software.. All over the machine is very good.READ MORE","['signal', 'software', 'hinge']",Positive
+94,Piyush Khare,Perfect product!,5.0,"Loved it, it's my first MacBook that I earned from my hardwork 🥺❤️READ MORE",[],Positive
+95,Mohit  Anand,Awesome,5.0,"When i ordered and came to know about seller review,i was scared that in what condition i will get macbook. but i was wrong.This is my first macbook and i am fully satisfied with the product with original packaging of apple and got genuine product.It's very thin and light and looks very premium.As A software developer, i installed intellij idea ide and guess what.It's magic,it is opening just in a click and within 5 seconds.Great performance, no heating issue, sound quality awesome an...READ MORE","['performance', 'quality', 'software', 'wi-fi', 'sound']",Positive
+96,Vinu Viswan,Super!,5.0,Super productREAD MORE,[],Positive
+97,Riya Singh,Fabulous!,5.0,Such a great deal.. very happy with the performance and battery life..Origional product..🥰❤️Thank you Flipkart..!!!READ MORE,"['performance', 'app', 'battery']",Positive
+98,Flipkart Customer,Super!,5.0,Go for it..its awesomeREAD MORE,[],Positive
+99,Piyush  Parihar,Mind-blowing purchase,5.0,"Best , best and best 🫶🏻👑🍎READ MORE",[],Positive
+106,Dhirendra Sahu,Brilliant,5.0,"Superb built quality, Amazing performance and display quality...Got it at 72k, wonderful product at great price.READ MORE","['build', 'performance', 'quality', 'display', 'ui']",Positive
+107,Hariprasad Mandal,Just wow!,5.0,Its really very good and compact device.READ MORE,[],Positive
+108,Rahul Anand,Highly recommended,5.0,This is the first MacBook I ever have. And I must say no one can match Apple product.READ MORE,['app'],Positive
+109,Yash Patil,Mind-blowing purchase,5.0,just love how apple is in their own league!!READ MORE,['app'],Positive
+110,Reeth,Mind-blowing purchase,5.0,"Great laptop. Very good performance, battery life and look and feel. Very happy with my purchaseREAD MORE","['performance', 'battery']",Positive
+111,kartik charande,Worth every penny,5.0,Worth every penny u spendREAD MORE,[],Positive
+112,Pratyush Sahu,Brilliant,5.0,Its very good product.READ MORE,[],Positive
+113,Rukshan Ahmed,Terrific,5.0,Superb 😍READ MORE,[],Positive
+114,Agastya Raj,Terrific purchase,5.0,"My first MacBook and also my first laptop. First I thought of buying a windows laptop as macbooks are way more expensive. But during the sale I bought it at 73k which is a steal deal. I am a college student and mainly bought it for coding, streaming videos and movies and also for some editing tasks. I would like to tell you if you are not a gamer this is one of the best laptops you can have in this price range. Loved the design, the colour, the sound , the display, the battery backup and al...READ MORE","['display', 'video', 'sound', 'battery']",Positive
+115,Krishna Mohan CH,Excellent,5.0,First mac and it works like a beastREAD MORE,[],Positive
+116,Flipkart Customer,Must buy!,5.0,"A good power pack laptop to go with,READ MORE",[],Positive
+117,C V  DINESH,Super!,5.0,This is the best in my entire life . Such a human Machine it is and 😀🎉READ MORE,['hinge'],Positive
+118,Flipkart Customer,Brilliant,5.0,Product is nice but price droped by 6k after purchasing so feels a bit dispointed.READ MORE,[],Positive
+119,Chitrasen Jaiswal,Wonderful,5.0,This is my first macbook...was using windows since 3rd grade ...both are different but macOS feels so smooth and optimised. As soon as I setted it up ... I got one update... offcourse I updated my Mac.I am loving this product... Especially the screen corners are so thin with least bezels..Battery life is amazing...used moderately for 1 day.. discharged 50 %READ MORE,['screen'],Positive
+120,Harish Acharya,Classy product,5.0,This is a great device as a personal laptop or work machine. The Full HD camera is a welcome addition. 6 month M365 subscription is free with this machine and that is a good add-on benefit. The small notch around the camera in the top middle of the screen is pretty neatly integrated and does not disturb. The build quality is fantastic and form factor is perfect to hold and operate.READ MORE,"['build', 'quality', 'camera', 'hinge', 'screen']",Positive
+121,Amisha Debbbarma,Wonderful,5.0,Very niceREAD MORE,[],Positive
+122,JITHIN GEORGE THOMAS,Simply awesome,5.0,Perfect one for office workersREAD MORE,[],Positive
+123,Sagar Sundarde,Mind-blowing purchase,5.0,Best powerful machine in all aspectsREAD MORE,['hinge'],Positive
+124,Saumyaranjan Mohapatra,Great product,5.0,SuperbREAD MORE,[],Positive
+125,sarathteja vallabhaneni,Highly recommended,5.0,"Just got the product, While detailed review will updated after couple of months usage.From initial usage it's the best laptop i have used in my careerREAD MORE",[],Positive
+126,Vinay Maurya,Simply awesome,5.0,Very nice productREAD MORE,[],Positive
+127,Mohd Shohil,Terrific,5.0,"The MacBook Air M2 is Apple's latest addition to its renowned lineup of ultraportable laptops, and it certainly has a lot to offer. With its sleek design, remarkable M2 chip, and impressive battery life, it's a compelling choice for many users. However, it's not without its downsides.**Pros:**1. **Stunning Design:** The MacBook Air M2 maintains the iconic, slim, and lightweight design that Apple is known for. It's an absolute head-turner with its aluminum chassis.2. **M2 Chip Performanc...READ MORE","['app', 'battery', 'drain']",Positive
+128,Nagesha B,Perfect product!,5.0,This is my first MacBook Air with M2 chip.Space grey color. Overall performance is very good.Battery is Good.Display is superb.Finally I owned my Mac.But I need laptop bag.READ MORE,"['battery', 'performance', 'display', 'color', 'colors']",Positive
+129,surya bag,Excellent,5.0,Battery lasted longer than my first relationship (2 days).Listening to Arijit singh songs on full volume since then still isn't getting over. Has more warmth than her. unlike her there's two way communication here as touchpad is very responsive. fingerprint lock is nice as it only opens up to me. 5 stars for this - 1 for herREAD MORE,"['battery', 'unresponsive', 'volume', 'fingerprint', 'touchpad']",Positive
+130,Anunay Sarkar,Classy product,5.0,First time i have used macbook after windows and i would say i can't use windows again.beautiful display with amazing sound (specially dolby atmos feature) Performance of laptop is far better than windows top notch model laptops.Flipkart delivery was worst part in this purchase.I have got this laptop 10 days after placing order and after making so much efforts.But overall i am satisfied with my purchase.READ MORE,"['performance', 'atmos', 'display', 'dolby', 'sound']",Positive
+131,Nirupama Singha,Using Mac after being a Windows user for almost 13 years.,5.0,"I have been using Windows for the past 13-odd years. Although I am a huge Apple fan and hence decided to buy this machine. I am writing this review after 1 month of usage. The performance it delivers is just unmatched. On practical usage, it can easily beat the high-end Windows laptops. You are gonna love it from the moment you unbox it and would kinda wanna eat it once it falls in your hands. The Apple silicon laptops really over-deliver than their on-paper specs. If it fits  your budget...READ MORE","['hinge', 'performance', 'app', 'fan']",Positive
+132,Sunny Kumar,Highly recommended,5.0,Just go for it. Performance and beauty is really amazing. 😻READ MORE,['performance'],Positive
+133,Subhadip Bar,Highly recommended,5.0,"I'm reviewing after 2 months, honestly I assure that I have used many laptops but this is the most experience ever. Literally M2's have crucial or beast performance no doubt. It's feel like butter on a hot pan, and I suggest if you purchase M2 you should be go for the starlight colour seriously colour is very unique.READ MORE",['performance'],Positive
+134,Shashibhushan  Dwivedi,Perfect product!,5.0,"Just as expected,Awesome!READ MORE",[],Positive
+135,YOGESH SHINDE,Must buy!,5.0,EXPENSIVE BUT AMAZING! 🤯READ MORE,[],Positive
+136,Khomesh Kearya,Must buy!,5.0,Awesome ✨❤️READ MORE,[],Positive
+137,Deepak Mohan,Must buy!,5.0,"Happy with the delivery; got it early in the same day, although expected was 3 days from the order. Thought to buy asus oled additionally but it very much matches that quality and punchiness in colors!READ MORE","['app', 'quality', 'colors', 'color']",Positive
+138,Parmar Akshay Harjibhai,Best in the market!,5.0,Review after 1 week Performance 10/10Display 10/10Easier to useLight weight like we hold a book in hand 👌 Happy with the product and installation speed as well as top notch on transferring data.My first Macbook after Windows...READ MORE,"['performance', 'display']",Positive
+139,Nilesh Jha,Fabulous!,5.0,"2 weeks review, product is very optimal in performance, price a bit high but overall product satisfaction is always there when ever u purchase an apple product, would take time to get used to its apps those who r used to working on windows like I am. Good buy 👍READ MORE",['performance'],Positive
+140,Flipkart Customer,Excellent,5.0,Prefect product and perfect price. I bought this mac for 78k in big billion days. I have been using this for 3 days now. It is working properly and had no starches. It's perfectly original and the packaging was also good. Really satisfied.READ MORE,[],Positive
+141,Ganesh Illapani,Super!,5.0,Design and build quality is excellent🤩... Performance is good enough for most users🙃... Handles day to day tasks with ease😉... Battery life is mind benging😅... Overall bang for the buck😎READ MORE,"['battery', 'build', 'performance', 'quality', 'ui']",Positive
+142,Jaydeep Katariya,Brilliant,5.0,"Amazing Display, battery and performance is super efficient, best product at a best price with the credit card discount.Lastly the new Starlight colour just looks 😍 fantastic...READ MORE","['display', 'performance', 'color', 'battery']",Positive
+143,Debomalya Roy,Classy product,5.0,"Awesome battery backup, performance wise no complaints , slick design and loved the midnight colour.... Although it's a fingerprint magnetDelivery experience was very goodREAD MORE","['battery', 'performance', 'color', 'water', 'signal', 'hinge', 'fingerprint']",Positive
+144,Aditya Kant,Awesome,5.0,Most powerful laptop out there.READ MORE,[],Positive
+145,Flipkart Customer,Best in the market!,5.0,"The deep midnight color is striking and adds a touch of elegance. The viewing experience is truly remarkable, providing vivid and immersive visuals. It's suitable for standard video and photo editing tasks. However, for users engaging in intensive video editing, it is advisable to choose the 512GB storage option due to the slower SSD speed of the 256GB model. Overall, considering the features and performance at this price point, it's a compelling deal.READ MORE","['touch', 'performance', 'color', 'video', 'colors', 'storage']",Positive
+146,Vishal Gupta,Fabulous!,5.0,Its a light weight powerful machine which is smooth and has zero lags.The keypad quality is good.Midnight black color looks very elegant.READ MORE,"['key', 'quality', 'color', 'hinge', 'colors', 'lag']",Positive
+147,Kalim Siddiqui,Awesome,5.0,Just moved from my old macbook air to M2 air. Overall the laptop is fast and capable of doing all the tasks required. Battery backup is very good. Overall happy with the purchase.READ MORE,"['battery', 'ui']",Positive
+148,Hrushikesh Sabat,Super!,5.0,"So beautiful,so elegant,just looking like a wow, starlight colour wow😍READ MORE","['colors', 'color']",Positive
+149,TANNA JIG,Super!,5.0,GoodREAD MORE,[],Positive
+150,Satya  Dev,Terrific purchase,5.0,"The product is osm, you can go with this without any hesitation I am writing the review almost purchasing after 2 months.Display and design 10/10Speaker and camera 10/10Performance and build quality 10/10Battery backup 10/10 unbelievable I am very happy to purchase this and using this very smoothly no lagging any type i am work this MacBook almost 15 hours per day office purpose very very nice choice and i am running the coding apps on the mac till now no lagging seen. It is working ve...READ MORE","['battery', 'build', 'speaker', 'performance', 'atmos', 'camera', 'quality', 'display']",Positive
+151,Ahamjit Talukdar,Super!,5.0,"Shifted from Windows to MacOS after using Windows till date. Takes a little time to get used to the new OS. But oh Boy! -Its fast, smooth, light weight, super portable and a delight to work with. - Display is amazing - Speakers are loud- No heating issues- The biggest Highlight is the battery backup - runs well for a good 15-18 hrs on normal work usage- Keyboard is fantastic, crisp, firm The only negatives:- the midnight color is a fingerprint magnet- port selection is super limitedREAD MORE","['battery', 'speaker', 'display', 'color', 'fingerprint', 'port']",Positive
+152,Flipkart Customer,Awesome,5.0,"It's my first macbook. It was totally a different feeling to own it. Right from its aesthetic finish look to its performance... All r just amazing. Silver macbook has different royalty and classic touch. The sleek design and light weight makes it to carry wherever and whenever. The M2 chip does the work. The transfers and downloads were way faster. The battery life is fine... Camera is great...  Overall, if u really want to shift from windows to MacOS then just go for it. Apart from the cost,...READ MORE","['performance', 'touch', 'camera', 'battery']",Positive
+153,Prateek  Rout,Excellent,5.0,This one is the best laptop I ever used trust me guys  M2 is So powerful.......am a graphics designer and am really impressed by this product such a great product by appleREAD MORE,['graphics'],Positive
+154,Chhayank Rathore,Just wow!,5.0,Super fantabulous experience with apple macbook i have been using this mac from past weak love itREAD MORE,['fan'],Positive
+155,Flipkart Customer,Just wow!,5.0,Excellent 👌😉READ MORE,[],Positive
+156,Sazzad Hussain,Perfect product!,5.0,"The MacBook Air M2 truly sets a new standard in performance and portability. Powered by the impressive M2 chip, it effortlessly handles demanding tasks while maintaining remarkable speed and efficiency. The sleek design, lightweight build, and vibrant Retina display make it a joy to use on the go. With its exceptional battery life and immersive audio, the MacBook Air M2 offers an unparalleled experience for both work and entertainment. It's a remarkable laptop that perfectly balances power an...READ MORE","['battery', 'build', 'performance', 'display', 'port']",Positive
+157,Saravanan KA,Classy product,5.0,Best laptop in this price (73K in big billion day Sale)Pros:Thinner and lighter Liquid retina displayGood 1080p webcamFastest M2 chipLong battery life (lasts more than a day)No fan noiseSmooth Mac OS Loud and clear audio quality  Features missing in this price range:Touch screenOled display Atleast 512 gb storage Refresh rate (atleast 90hz)Fast charging Tablet modeREAD MORE,"['battery', 'quality', 'display', 'refresh', 'water', 'hinge', 'charging', 'ui', 'fan', 'storage']",Positive
+158,Sameer  Raj,Best in the market!,5.0,Best machine  Super slimSuperb battery backup Superb performance Superb displayPremium design Nice packaging 100% genuine Far better than windows laptpREAD MORE,"['display', 'performance', 'battery', 'hinge']",Positive
+159,Prateet  Tiwari,Highly recommended,5.0,Blindly go for Macbook if your budget allows. No other laptop can provide this quality and premiumnessREAD MORE,"['quality', 'video']",Positive
+160,Flipkart Customer,Perfect product!,5.0,"If you need a laptop for parsonal uses , editing, coding, and much more at the best price range,Not for gaming, if you play smaller game like 200mb the machine gonna too hot 🔥 if you are not a gamer then go for it...READ MORE",[],Positive
+161,Naveen Sharma,High Performance Machine !!,5.0,"Performance of Mac is much superior as compared to any windows machine. If you are concerned w.r.t productivity and efficiency of your efforts on laptop, choose Macbook.For my needs, M2 gives most value for money.CAUTION - Beware of the fact that if you are switching from windows ecosystem, you will need to put spend substantial efforts in first 2-3 weeks to learn Mac commands and shortcuts.READ MORE","['performance', 'loose']",Positive
+162,Ayush Verma,Must buy!,5.0,Best laptop in 67kREAD MORE,[],Positive
+163,Shivam Prakash,Wonderful,5.0,You can go for it without even thinking twice. Definitely worth the price.READ MORE,[],Positive
+164,Himanshu Verma,Classy product,5.0,"First time i have purchased a apple macbook and i am fully satisfied with the product, the design and looks of this are insane and just loves the product very much and the midnight colour is awesome, definitely value for money.READ MORE","['signal', 'app']",Positive
+165,Dev  Kumar,Classy product,5.0,No need to tell it's apple Good as alREAD MORE,['app'],Positive
+166,Rajat Rana,Just wow!,5.0,The macbook is brilliantREAD MORE,[],Positive
+167,Balamurugan Kanthavelu,Excellent,5.0,Great...READ MORE,[],Positive
+168,Flipkart Customer,Perfect product!,5.0,"The best product and building quality is superb, no matter for the usage if u r a windows user and planning to buy mac.READ MORE","['quality', 'build', 'ui']",Positive
+169,Biswabhusan  Swain,Simply awesome,5.0,This laptop is great and best for Students and programmers.A lot of people will tell you that you can't install cracked apps but there are lots of options.The battery is best no laptop comes close to it in terms of battery.The keyboard and trackpad are the best that I have ever uses in any laptop especially the keyboard that is spot on the backlit is the best among all the laptops.Coming to performance M2 chip will handle anything you throw at it but to mention M2 chip has slower SSD ...READ MORE,"['performance', 'battery', 'ram', 'cracked']",Positive
+170,Sahil  Chaudhary,Fabulous!,5.0,This MacBook is a fine wine ..Go for it without any second thought.. 💗♾️🍷READ MORE,[],Positive
+171,Flipkart Customer,Fabulous!,5.0,Just phenomenal. My words can't describe this machine.READ MORE,['hinge'],Positive
+172,Vishal Chakote,Must buy!,5.0,Loved it❤️READ MORE,[],Positive
+173,Satish kolukuluri,Brilliant,5.0,"Been waiting to buy a macbook since M1 lunch, but finally bought Air M2 because of BBD in Flipkart. I got it at an unbelievable price. But I was a little disappointed with the delivery as it got delivered after 4 days after it came out for delivery. I think I don't need to talk anything about Macbook Air M2 performance, it's literally awesome and no window laptop can beat it's battery.READ MORE",['performance'],Positive
+174,Yash Ojha,Worth every penny,5.0,Totally Satisfied with this powerful machine. ✨READ MORE,['hinge'],Positive
+175,Ashok Gupta,Worth every penny,5.0,Just one wordAwesome 😊READ MORE,[],Positive
+176,khushal singh saini,Terrific,5.0,Great laptop value for money.READ MORE,[],Positive
+177,Abhishek Nair,Perfect product!,5.0,Apple Macbook Air M2 is my first laptop and I don't even need to elaborate on the quality and user friendliness of Apple devices. They always set the bar high when it comes to attention to detail like multiple device integration in the Apple ecosystem. No other company till now has been able to accomplish this feat so efficiently. Everything is so seamless that we are in awe of Apple products. No doubt these are premium and costly devices but we get our money's worth over a long duration of t...READ MORE,"['app', 'quality']",Positive
+178,Shivam  Sherkar,Excellent,5.0,NiceREAD MORE,[],Positive
+179,jibin sunny,Terrific,5.0,I bought the product during BBD 2023 at a good offer price. I am a first time mac user and got fascinated with the design and build quality of the Macbook. I feel like and excellent purchase.READ MORE,"['quality', 'build']",Positive
+180,krishna thoodi,Wonderful,5.0,"Good product ,battery backup also goodREAD MORE","['battery', 'water']",Positive
+181,Nitin Kumar Mimrot,Terrific purchase,5.0,"Overall a product that never disappoints. The only thing that u don't like in this black colour is a fingerprint magnet every time you touch it, it gets full of fingerprints.READ MORE","['hinge', 'fingerprint', 'touch', 'color']",Positive
+182,Santosh  Rai,Awesome,5.0,GoodREAD MORE,[],Positive
+183,Azam,Simply awesome,5.0,Better than windowsREAD MORE,[],Positive
+184,Sumant Kushwaha,Just wow!,5.0,"First time experience, It's an amazing device.I'll update my review after 1/2 Months.READ MORE",['water'],Positive
+185,VISHNU MALLAH,Simply awesome,5.0,Mechanical design - FinesseREAD MORE,['mechanical'],Positive
+186,Singh Vaccine Hub,Excellent,5.0,BeastREAD MORE,[],Positive
+187,Malik Najeeb Ul Habib,Great laptop under 70k,5.0,Great Laptop for a price around 65k. Can buy without hesitation.Pros:DisplayBatterySizepretty much everythingCons:The base variant has only 256gb storage which will fill in no time.So better opt for an iCloud subscription or buy an external HDD or SSDREAD MORE,"['static', 'battery', 'size', 'display', 'water', 'hinge', 'storage']",Positive
+188,hitendra sherasia,Great product,5.0,Very nice produREAD MORE,[],Positive
+189,Israna,Mind-blowing purchase,5.0,What can I say now ...Ankh band kro and go for it yr ..READ MORE,[],Positive
+190,Shaikh Manzer,Terrific purchase,5.0,Absolute beast 🤩💪READ MORE,[],Positive
+191,Siddhant Srivastava,Brilliant,5.0,Too goodREAD MORE,[],Positive
+192,Akash,Brilliant,5.0,Best Deal 👌READ MORE,[],Positive
+193,Suvajit  Sarkar,Super!,5.0,Very nice and smooth.READ MORE,[],Positive
+194,Harpreet  Singh,Brilliant,5.0,Very good productREAD MORE,[],Positive
+195,Flipkart Customer,Simply awesome,5.0,good performance 15 hr battery backupREAD MORE,"['performance', 'battery', 'water']",Positive
+196,Deepam Suneja,Terrific purchase,5.0,ExcellentREAD MORE,[],Positive
+197,Deepak Negi,Super!,5.0,Display is superb as well as battery is insane .READ MORE,"['display', 'battery', 'water']",Positive
+198,Harsh Dua,Excellent,5.0,Every penny spent on this machine is worth it✅️READ MORE,['hinge'],Positive
+199,Kapil Mone,Classy product,5.0,bestREAD MORE,[],Positive

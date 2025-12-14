@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-card" style="text-align: center;">
+            <h2>Rating & Sentiment Analysis</h2>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin: 2rem 0;">
+                <!-- Rating Distribution -->
+                <div
+                    style="flex: 1; min-width: 300px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 12px;">
+                    <canvas id="ratingChart"></canvas>
+                </div>
+
+                <!-- Sentiment Distribution -->
+                <div
+                    style="flex: 1; min-width: 300px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 12px;">
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+            </div>
+
+            <div class="actions" style="max-width: 600px; margin: 0 auto;">
+                <a href="/results/{{ filename }}" class="btn btn-secondary">← Back to Reviews</a>
+                <a href="/analysis/{{ filename }}" class="btn btn-primary">Generate AI Analysis →</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data passed from Flask
+        const data = {{ plot_data | tojson }};
+
+        // 1. Rating Chart (Bar)
+        new Chart(document.getElementById('ratingChart'), {
+            type: 'bar',
+            data: {
+                labels: ['1 Star', '2 Stars', '3 Stars', '4 Stars', '5 Stars'],
+                datasets: [{
+                    label: 'Number of Reviews',
+                    data: data.ratings,
+                    backgroundColor: 'rgba(6, 182, 212, 0.6)', // Cyan
+                    borderColor: 'rgba(6, 182, 212, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: 'Star Rating Distribution', color: '#cbd5e1' }
+                },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.1)' }, ticks: { color: '#94a3b8' } },
+                    x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
+                }
+            }
+        });
+
+        // 2. Sentiment Chart (Doughnut)
+        new Chart(document.getElementById('sentimentChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Positive', 'Neutral', 'Negative'],
+                datasets: [{
+                    data: data.sentiment,
+                    backgroundColor: [
+                        'rgba(16, 185, 129, 0.6)', // Green
+                        'rgba(148, 163, 184, 0.6)', // Grey
+                        'rgba(239, 68, 68, 0.6)'    // Red
+                    ],
+                    borderColor: 'rgba(255,255,255,0.1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#cbd5e1' } },
+                    title: { display: true, text: 'Sentiment Split', color: '#cbd5e1' }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

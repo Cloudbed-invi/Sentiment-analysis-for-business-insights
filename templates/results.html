@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-card" style="margin-bottom: 2rem;">
+            <h2>Dataset Overview</h2>
+            <p style="color: var(--text-secondary)">
+                File: <strong>{{ filename }}</strong><br>
+                Total Scraped: {{ reviews['positive']|length + reviews['negative']|length }}
+            </p>
+            <div class="actions">
+                <a href="/" class="btn btn-secondary">← Back Home</a>
+                <a href="/plot/{{ filename }}" class="btn btn-primary">Visualize Data →</a>
+            </div>
+        </div>
+
+        <h3 style="color: var(--success); margin-left: 1rem;">Positive Reviews ({{ reviews['positive']|length }})</h3>
+        <div class="reviews-grid" style="margin-bottom: 3rem;">
+            {% for review in reviews['positive'] %}
+            <div class="review-card">
+                <div class="review-header">
+                    <span style="font-weight: 600; color: var(--accent-secondary);">{{ review['Name'] }}</span>
+                    <span class="rating-badge rating-high">{{ review['Rating'] }} ★</span>
+                </div>
+                <!-- Title Removed -->
+                <p style="color: var(--text-secondary); font-size: 0.9em; line-height: 1.5;">{{ review['Content'] }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h3 style="color: var(--danger); margin-left: 1rem;">Critical Reviews ({{ reviews['negative']|length }})</h3>
+        <div class="reviews-grid">
+            {% for review in reviews['negative'] %}
+            <div class="review-card">
+                <div class="review-header">
+                    <span style="font-weight: 600; color: var(--accent-primary);">{{ review['Name'] }}</span>
+                    <span class="rating-badge rating-low">{{ review['Rating'] }} ★</span>
+                </div>
+                <!-- Title Removed -->
+                <p style="color: var(--text-secondary); font-size: 0.9em; line-height: 1.5;">{{ review['Content'] }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
