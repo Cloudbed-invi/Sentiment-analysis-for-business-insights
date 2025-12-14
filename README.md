@@ -32,6 +32,13 @@ An advanced AI-powered product analyst tool that scrapes reviews from Flipkart/A
       GEMINI_API_KEY=your_api_key_here
       ```
 
+## 📋 Prerequisites
+
+Before running, ensure you have:
+*   **Google Chrome** installed (required for the scraper).
+*   **Python 3.8+** installed.
+*   **Git** installed.
+
 4.  **Run the Application**
     ```bash
     python app.py
